@@ -1,0 +1,60 @@
+.titlefont{
+    font-size: 380%;
+    font-weight: bolder;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    width: 70%;
+    margin-left: 15%;
+    line-height: 1.4;
+}
+.subtitle{
+    font-size: 125%;
+    font-weight: bold;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    width: 70%;
+    padding-left: 15%;
+    color: white;
+}
+.greenbutton{
+    margin-top: 70px;
+border-radius: 10px;
+font-size: 70%;
+padding: 11px 20px;
+background-color: black;
+font-weight: bold;
+border-color: deepskyblue;
+color: aliceblue;
+}
+.opac{
+        background: rgba(0, 0, 0, 0.5);
+    opacity: 0.9 !important;
+    z-index: 200 !important;
+}
+.img{
+    height: 85vh;
+    width: 100%;
+    opacity: 0.6;
+}
+
+
+@media screen and (max-width: 800px) {
+    .titlefont{
+        font-size: 220%;
+        font-weight: bolder;
+        font-family: Roboto,Helvetica,Arial,sans-serif;
+        width: 80%;
+        margin-left: 0%;
+    }
+    .subtitle{
+        font-size: 110%;
+        font-weight: bold;
+        font-family: Roboto,Helvetica,Arial,sans-serif;
+        width: 85%;
+        padding-left: 0%;
+        margin: auto;
+        text-align: center;
+    }
+    .greenbutton{
+        margin-top: 50px;
+   
+    }
+}
