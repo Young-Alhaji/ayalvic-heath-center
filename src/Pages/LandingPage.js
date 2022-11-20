@@ -5,6 +5,8 @@ import { useNavigate } from "react-router";
 import { Link } from "react-router-dom";
 import TitleTop from '../Components/TitleTop';
 import Packages from '../Components/Packages';
+import SpecNews from '../Components/SpecNews';
+import Contact from '../Components/Contact';
 const LandingPage = () => {
   return (
     <>
@@ -14,6 +16,8 @@ const LandingPage = () => {
       </div>
         <TitleTop/> <br /><br />
         <Packages/>
+        <SpecNews/>
+        <Contact/>
         <center>
         </center>
 
