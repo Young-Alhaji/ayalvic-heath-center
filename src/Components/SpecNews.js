@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import "../Modules/specnews.css";
 
 const SpecNews = () => {
   return (
@@ -22,7 +23,7 @@ const SpecNews = () => {
 <div class="carousel-inner">
 
   <div class="carousel-item active">
-    <img class="d-block w-100" src="speciality1.png" alt="Neurocritical Care image"/>
+    <img class="d-block w-100 img" src="speciality1.png" alt="Neurocritical Care image"/>
     <div class="carousel-caption">
         <h3>Neurocritical Care</h3>
         <p className='d-none d-md-block'>The Neurocritical Care, Ayalvic Medic Center, provides neurological and cerebal intensive care with the evidence based best practice</p>
@@ -30,7 +31,7 @@ const SpecNews = () => {
   </div>
 
   <div class="carousel-item">
-    <img class="d-block w-100" src="speciality2.png" alt="Motility Center"/>
+    <img class="d-block w-100 img" src="speciality2.png" alt="Motility Center"/>
     <div class="carousel-caption text-dark">
         <h3>Gastrointestinal Motility Center</h3>
         <p class="font-weight-bold d-none d-md-block">Gastrointestinal Motility Center, offers a holistic range of services including consultation, diagnosis and treatment of functional disorders of the gastrointestinal system from the upper to the lower parts</p>
@@ -38,7 +39,7 @@ const SpecNews = () => {
   </div>
 
   <div class="carousel-item">
-    <img class="d-block w-100" src="speciality3.png" alt="Urology Center"/>
+    <img className="d-block w-100 img" src="speciality3.png" alt="Urology Center"/>
     <div class="carousel-caption text-dark">
         <h3>Urology Center</h3>
         <p class="font-weight-bold d-none d-md-block">We focus on non-invasive and minimally invasive treatments so that we can give you the best possible results with the minimum amount of discomfort. </p>

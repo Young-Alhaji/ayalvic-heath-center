@@ -10,11 +10,12 @@ const Packages = () => {
   return (
     <>
     <center>
+        <br /><br />
         <div className='container wow animate__animated animate__zoomIn'>
             <div className='row'>
 
                 <button className='col-md-4 border-0 bg-white' onClick={landnav}>
-                    <div className='card bg-success text-white border-0 my-2'>
+                    <div className='card bg-success text-white border-0 my-4'>
                         <div className='card-body bg-success'>
                             <h1><i className='fa-solid fa-user-doctor' style={{border:'2px solid white',borderRadius:'1000px',padding:'20px'}}></i></h1>
                             <h5 class="card-title">Find a Doctor</h5>
@@ -23,7 +24,7 @@ const Packages = () => {
                     </div>
                 </button>
                 <button className='col-md-4 border-0 bg-white' onClick={landnav}>
-                <div className='card bg-dark text-white border-0 my-2'>
+                <div className='card bg-dark text-white border-0 my-4'>
                         <div className='card-body bg-dark'>
                             <h1><i className='fa-solid fa-plus' style={{border:'2px solid white',borderRadius:'1000px',padding:'20px'}}></i></h1>
                             <h5 class="card-title">Send an Inquiry</h5> <br />
@@ -32,7 +33,7 @@ const Packages = () => {
                     </div>
                 </button>
                 <button className='col-md-4 border-0 bg-white' onClick={landnav}>
-                <div className='card bg-primary text-white border-0 my-2'>
+                <div className='card bg-primary text-white border-0 my-3'>
                         <div className='card-body bg-primary'>
                             <h1><i className='fa-solid fa-calendar-check' style={{border:'2px solid white',borderRadius:'1000px',padding:'20px'}}></i></h1>
                             <h5 class="card-title">Book Appointment</h5> <br />
@@ -43,7 +44,7 @@ const Packages = () => {
 
             </div>
 
-        </div> <br /><br /><br />
+        </div> <br /><br /><br /><br />
 
         <h2 className='text-success'>Recommended Packages</h2>
         <p style={{borderBottom:'2px solid grey',width:'150px'}}></p> <br /><br />
@@ -53,7 +54,7 @@ const Packages = () => {
         <div className='container wow animate__animated animate__slideInLeft'>
             <div className='row'>
 
-                <div className='col-md-4 my-2'>
+                <div className='col-md-4 my-3'>
                     <div className='card'>
                     <img class="card-img-top" src="package1.png" alt="Card image cap"/>
                         <div className='card-body'>
@@ -63,7 +64,7 @@ const Packages = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-4 my-2'>
+                <div className='col-md-4 my-3'>
                 <div className='card'>
                 <img class="card-img-top" src="package2.png" alt="Card image cap"/>
                         <div className='card-body'>
@@ -73,7 +74,7 @@ const Packages = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-4 my-2'>
+                <div className='col-md-4 my-3'>
                 <div className='card'>
                 <img class="card-img-top" src="package3.png" alt="Card image cap" height='195px'/>
                         <div className='card-body'>
