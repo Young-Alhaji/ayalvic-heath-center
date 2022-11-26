@@ -1,7 +1,12 @@
 import React from 'react'
 import styles from "../Modules/titletop.module.css";
+import { useNavigate } from 'react-router-dom';
 
 const TitleTop = () => {
+  let navigate= useNavigate()
+  const landnav =()=>{
+    navigate('/signin')
+  }
   return (
     <>
     <div className='bg-dark' style={{position:'relative'}}>
@@ -16,7 +21,7 @@ const TitleTop = () => {
              
              <br />
              
-              <button className={styles.greenbutton}>
+              <button className={styles.greenbutton} onClick={landnav}>
                 GET STARTED
               </button>  <br /><br />
              </div>

@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 import TitleTop from '../Components/TitleTop';
 import Packages from '../Components/Packages';
 import SpecNews from '../Components/SpecNews';
-import Contact from '../Components/Contact';
+import Footer from '../Components/Footer';
+
 const LandingPage = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const LandingPage = () => {
         <TitleTop/> <br /><br />
         <Packages/>
         <SpecNews/>
-        <Contact/>
+        <Footer/>
         <center>
         </center>
 

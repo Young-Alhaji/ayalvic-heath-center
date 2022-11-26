@@ -1,15 +1,19 @@
 import React from 'react'
-import styles from "../Modules/packages.module.css"
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 
 const Packages = () => {
+    let navigate= useNavigate()
+  const landnav =()=>{
+    navigate('/signin')
+  }
   return (
     <>
     <center>
         <div className='container wow animate__animated animate__zoomIn'>
             <div className='row'>
 
-                <button className='col-md-4 border-0 bg-white'>
+                <button className='col-md-4 border-0 bg-white' onClick={landnav}>
                     <div className='card bg-success text-white border-0 my-2'>
                         <div className='card-body bg-success'>
                             <h1><i className='fa-solid fa-user-doctor' style={{border:'2px solid white',borderRadius:'1000px',padding:'20px'}}></i></h1>
@@ -18,7 +22,7 @@ const Packages = () => {
                         </div>
                     </div>
                 </button>
-                <button className='col-md-4 border-0 bg-white'>
+                <button className='col-md-4 border-0 bg-white' onClick={landnav}>
                 <div className='card bg-dark text-white border-0 my-2'>
                         <div className='card-body bg-dark'>
                             <h1><i className='fa-solid fa-plus' style={{border:'2px solid white',borderRadius:'1000px',padding:'20px'}}></i></h1>
@@ -27,7 +31,7 @@ const Packages = () => {
                         </div>
                     </div>
                 </button>
-                <button className='col-md-4 border-0 bg-white'>
+                <button className='col-md-4 border-0 bg-white' onClick={landnav}>
                 <div className='card bg-primary text-white border-0 my-2'>
                         <div className='card-body bg-primary'>
                             <h1><i className='fa-solid fa-calendar-check' style={{border:'2px solid white',borderRadius:'1000px',padding:'20px'}}></i></h1>
@@ -55,7 +59,7 @@ const Packages = () => {
                         <div className='card-body'>
                             <h4 class="card-title text-success">Water vapor therapy</h4>
                             <p class="card-text">Cost: &nbsp; <span className='h3 text-success'> #50,000 </span></p>
-                            <Link to='' className='btn btn-success'>SEE PACKAGE DETAILS</Link>
+                            <Link to='/signin' className='btn btn-success'>SEE PACKAGE DETAILS</Link>
                         </div>
                     </div>
                 </div>
@@ -65,7 +69,7 @@ const Packages = () => {
                         <div className='card-body'>
                             <h4 class="card-title text-dark">Stroke Work Up Package</h4>
                             <p class="card-text">Cost: &nbsp; <span className='h3 text-dark'> #250,000 </span></p>
-                            <Link to='' className='btn btn-dark'>SEE PACKAGE DETAILS</Link>
+                            <Link to='signin' className='btn btn-dark'>SEE PACKAGE DETAILS</Link>
                         </div>
                     </div>
                 </div>
@@ -75,7 +79,7 @@ const Packages = () => {
                         <div className='card-body'>
                             <h4 class="card-title text-primary">Ayalvic digital gift card</h4>
                             <p class="card-text">Cost: &nbsp; <span className='h3 text-primary'> #10,000 </span></p>
-                            <Link to='' className='btn btn-primary'>SEE PACKAGE DETAILS</Link>
+                            <Link to='signin' className='btn btn-primary'>SEE PACKAGE DETAILS</Link>
                         </div>
                     </div>
                 </div>

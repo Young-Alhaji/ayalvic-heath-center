@@ -27,10 +27,10 @@ const Navbar = () => {
         <a class="nav-link navhove" href="#">Contact Us</a>
       </li>
       <li class="nav-item active px-2">
-        <a class="nav-link navhove" href="#">Create Account</a>
+        <Link class="nav-link navhove" to='/#'>Create Account</Link>
       </li>
       <li class="nav-item active px-2">
-        <a class="nav-link navhove" href="#">Sign In</a>
+        <Link class="nav-link navhove" to='/signin'>Sign In</Link>
       </li>
       
       
