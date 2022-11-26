@@ -51,11 +51,11 @@ const Packages = () => {
 
 
         <section>
-        <div className='container wow animate__animated animate__slideInLeft'>
+        <div className='container'>
             <div className='row'>
 
                 <div className='col-md-4 my-3'>
-                    <div className='card'>
+                    <div className='card wow animate__animated animate__slideInLeft'>
                     <img class="card-img-top" src="package1.png" alt="Card image cap"/>
                         <div className='card-body'>
                             <h4 class="card-title text-success">Water vapor therapy</h4>
@@ -65,7 +65,7 @@ const Packages = () => {
                     </div>
                 </div>
                 <div className='col-md-4 my-3'>
-                <div className='card'>
+                <div className='card wow animate__animated animate__slideInLeft'>
                 <img class="card-img-top" src="package2.png" alt="Card image cap"/>
                         <div className='card-body'>
                             <h4 class="card-title text-dark">Stroke Work Up Package</h4>
@@ -75,7 +75,7 @@ const Packages = () => {
                     </div>
                 </div>
                 <div className='col-md-4 my-3'>
-                <div className='card'>
+                <div className='card wow animate__animated animate__slideInLeft'>
                 <img class="card-img-top" src="package3.png" alt="Card image cap" height='195px'/>
                         <div className='card-body'>
                             <h4 class="card-title text-primary">Ayalvic digital gift card</h4>
