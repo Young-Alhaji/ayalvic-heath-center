@@ -1,3 +1,10 @@
+.poppins{
+    font-family: "Poppins", sans-serif;
+}
+.boldpoppins{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
 .navhove:hover {
     background-color: rgb(85, 83, 83) !important;
     border-radius: 10px;

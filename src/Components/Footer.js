@@ -22,9 +22,9 @@ const Footer = () => {
             </div>
             <div className={styles.locationtext}>
                 <p className={styles.p}>Locations</p>
-                Address 1.<br />
+                <i style={{fontSize: '120%',color: 'white'}} class="fa-solid fa-location-dot"></i> &nbsp; Address 1.<br />
                 Alfatedo Street, Ogbomosho. Oyo State. <br />
-                Address 2.<br />
+                <i style={{fontSize: '120%',color: 'white'}} class="fa-solid fa-location-dot"></i> &nbsp; Address 2.<br />
                 Grinland Hostel, Damico Estate, Ile-Ife.Osun State.<br />
                 Nigeria
             </div>
