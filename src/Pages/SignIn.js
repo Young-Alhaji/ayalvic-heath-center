@@ -61,7 +61,7 @@ const signin=()=>{
               ""
             )} <br />
 
-          <button className='btn btn-primary' style={{width: '300px'}} onClick={signin}>Sign up</button> <br /><br />
+          <button className='btn btn-primary' style={{width: '300px',fontWeight: 'bold'}} onClick={signin}>Sign in</button> <br /><br />
           Don't have an account yet? <Link to='/'>Sign Up here</Link>
 
         </div>

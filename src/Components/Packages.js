@@ -47,7 +47,7 @@ const Packages = () => {
         </div> <br /><br /><br /><br />
 
         <h2 className='text-success'>Recommended Packages</h2>
-        <p style={{borderBottom:'2px solid grey',width:'150px'}}></p> <br /><br />
+        <p style={{borderBottom:'4px solid grey',width:'150px'}}></p> <br /><br />
 
 
         <section>

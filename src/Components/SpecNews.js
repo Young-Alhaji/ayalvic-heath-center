@@ -63,7 +63,7 @@ const SpecNews = () => {
 
         <section>
         <h2 className='text-dark'>Ayalvic News</h2>
-        <p style={{borderBottom:'2px solid grey',width:'100px'}}></p> <br /><br />
+        <p style={{borderBottom:'4px solid grey',width:'110px'}}></p> <br /><br />
 
         <div className='container'>
             <div className='row'>
